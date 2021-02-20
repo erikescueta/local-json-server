@@ -1,0 +1,25 @@
+{
+  "name": "local-json-server",
+  "version": "1.0.0",
+  "description": "A simple JSON server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node database.js & node server.js",
+    "start:api": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikescueta/local-json-server.git"
+  },
+  "author": "@erikescueta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erikescueta/local-json-server/issues"
+  },
+  "homepage": "https://github.com/erikescueta/local-json-server#readme",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "json-server": "^0.16.3"
+  }
+}
